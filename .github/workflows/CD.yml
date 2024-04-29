@@ -1,6 +1,6 @@
 env:
-  repo:         "https://github.com/akhasa2001/simple-website.git"
-  project_id:   "terraform-project-akhasa1"
+  repo:         "https://github.com/Kurmanbek10/simple-website.git"
+  project_id:   "my-tf-project-419021"
   repo_region:  "us-central1"
   app_name:     "simple-website"
   registry_name: "docker-registry"
@@ -38,7 +38,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Clone a repo
         run: |
-          git clone https://github.com/akhasa2001/simple-website.git
+          git clone https://github.com/Kurmanbek10/simple-website.git
 
       # Runs a set of commands using the runners shell
       - name: Switch Branches
